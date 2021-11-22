@@ -1,3 +1,5 @@
+// A desestruturação de objetos permite que você extraia um valor de um objeto.
+
 const pesssoa = {
     nome: 'Ana',
     idade: 23,

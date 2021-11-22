@@ -1,3 +1,5 @@
+// O método indexOf() retorna a posição de um elemento em um array.
+
 var array = ["backend", "frontend"];
 
 console.log(array.indexOf("backend")); // 0

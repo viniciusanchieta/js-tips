@@ -1,3 +1,5 @@
+// O método every() permite verificar se todos os elementos de um array são aprovados por um teste.
+
 const array = [10, 10, 10];
 
 const check = (currentValue) => currentValue == 10;
