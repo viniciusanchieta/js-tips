@@ -1,8 +1,12 @@
-const dataAtual = new Date();
+const now = new Date();
+const month = now.getMonth() + 1;
+const day = now.getDate();
 
-if (dataAtual.toLocaleDateString() === '25/12/2021') {
-    console.log('Feliz Natal!');
-} else {
-    console.log('Carma lá, ainda não é natal!');
+const isChristmas = month === 12 && day === 25;
+
+if (!isChristmas) {
+  return console.log('Hoje não é Natal :(');
 }
+
+console.log('Feliz Natal!');
 
